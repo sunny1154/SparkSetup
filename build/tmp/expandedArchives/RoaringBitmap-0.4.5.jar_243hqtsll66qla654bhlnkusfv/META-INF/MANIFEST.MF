@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1414792187951
+Build-Jdk: 1.8.0
+Built-By: lemire
+Bundle-Description: Roaring bitmaps are compressed bitmaps (also called 
+ bitsets) which tend to outperform    conventional compressed bitmaps su
+ ch as WAH or Concise.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: RoaringBitmap
+Bundle-SymbolicName: org.roaringbitmap.RoaringBitmap
+Bundle-Version: 0.4.5
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.roaringbitmap.buffer;uses:="org.roaringbitmap";versi
+ on="0.4.5",org.roaringbitmap;uses:="org.roaringbitmap.buffer";version="
+ 0.4.5"
+Main-Class: theMainClass
+Tool: Bnd-1.50.0

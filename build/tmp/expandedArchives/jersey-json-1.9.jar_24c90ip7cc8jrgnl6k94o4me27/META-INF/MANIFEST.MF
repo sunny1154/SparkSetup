@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.jersey.json.impl;uses:="com.sun.jersey.api.jso
+ n,org.codehaus.jettison.mapped,org.codehaus.jettison.json,javax.xml.b
+ ind.annotation.adapters,com.sun.jersey.core.util,org.w3c.dom,com.sun.
+ jersey.json.impl.reader,org.xml.sax,javax.xml.bind.attachment,org.cod
+ ehaus.jettison.badgerfish,javax.xml.stream,javax.xml.transform,javax.
+ xml.bind.annotation,com.sun.jersey.json.impl.writer,org.codehaus.jack
+ son,javax.xml.validation,javax.xml.bind,com.sun.jersey.localization",
+ com.sun.jersey.json.impl.provider.entity;uses:="com.sun.jersey.core.p
+ rovider.jaxb,org.codehaus.jackson.jaxrs,com.sun.jersey.api.json,com.s
+ un.jersey.core.spi.component,javax.ws.rs,org.codehaus.jettison.json,c
+ om.sun.jersey.core.util,com.sun.jersey.core.provider,javax.ws.rs.ext,
+ com.sun.jersey.json.impl,javax.xml.stream,com.sun.jersey.spi,com.sun.
+ jersey.spi.inject,javax.xml.bind,javax.ws.rs.core",com.sun.jersey.api
+ .json;uses:="com.sun.jersey.json.impl,org.codehaus.jackson.map,org.co
+ dehaus.jackson,javax.xml.bind",com.sun.jersey.json.impl.writer;uses:=
+ "com.sun.jersey.api.json,com.sun.xml.bind.v2.runtime.property,javax.x
+ ml.namespace,com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.model.co
+ re,javax.xml.stream,com.sun.xml.bind.v2.model.runtime,org.codehaus.ja
+ ckson",com.sun.jersey.json.impl.reader;uses:="com.sun.jersey.json.imp
+ l,javax.xml.stream,com.sun.jersey.api.json,org.codehaus.jackson,org.c
+ odehaus.jackson.type,com.sun.xml.bind.v2.runtime.unmarshaller,javax.x
+ ml.namespace"
+Implementation-Title: jersey-json
+Implementation-Version: 1.9
+Built-By: hudson-pavel
+Tool: Bnd-0.0.255
+Bundle-Name: jersey-json
+Created-By: Apache Maven Bundle Plugin
+Implementation-Vendor: Oracle Corporation
+Bundle-Vendor: Oracle Corporation
+Implementation-Vendor-Id: com.sun.jersey
+Build-Jdk: 1.6.0_26
+Bundle-Version: 1.9
+Bnd-LastModified: 1314962815688
+Bundle-ManifestVersion: 2
+Bundle-Description: Jersey is the open source (under dual CDDL+GPL lic
+ ense) JAX-RS (JSR 311)        production quality Reference Implementa
+ tion for building        RESTful Web services.
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html, ht
+ tp://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-DocURL: http://www.oracle.com/
+Bundle-SymbolicName: com.sun.jersey.jersey-json
+Import-Package: com.sun.jersey.api.json,com.sun.jersey.core.provider,c
+ om.sun.jersey.core.provider.jaxb,com.sun.jersey.core.spi.component,co
+ m.sun.jersey.core.util,com.sun.jersey.json.impl,com.sun.jersey.json.i
+ mpl.provider.entity,com.sun.jersey.json.impl.reader,com.sun.jersey.js
+ on.impl.writer,com.sun.jersey.localization,com.sun.jersey.spi,com.sun
+ .jersey.spi.inject,com.sun.xml.bind.annotation;resolution:=optional,c
+ om.sun.xml.bind.v2.model.core;resolution:=optional,com.sun.xml.bind.v
+ 2.model.runtime;resolution:=optional,com.sun.xml.bind.v2.runtime;reso
+ lution:=optional,com.sun.xml.bind.v2.runtime.property;resolution:=opt
+ ional,com.sun.xml.bind.v2.runtime.unmarshaller;resolution:=optional,j
+ avax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,javax.xml.bind,javax.xml.
+ bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.att
+ achment,javax.xml.namespace,javax.xml.stream,javax.xml.transform,java
+ x.xml.validation,org.codehaus.jackson;version="1.8",org.codehaus.jack
+ son.jaxrs;version="1.8",org.codehaus.jackson.map;version="1.8",org.co
+ dehaus.jackson.type;version="1.8",org.codehaus.jettison.badgerfish;ve
+ rsion="1.1",org.codehaus.jettison.json;version="1.1",org.codehaus.jet
+ tison.mapped;version="1.1",org.w3c.dom,org.xml.sax
+Build-Id: 1.9 ${buildNumber}
+

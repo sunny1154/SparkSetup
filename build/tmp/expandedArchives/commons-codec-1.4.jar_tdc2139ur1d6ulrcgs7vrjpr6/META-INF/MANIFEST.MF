@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.6.0_07 (Sun Microsystems Inc.)
+Built-By: pemben
+Build-Jdk: 1.6.0_07
+Implementation-Title: Commons Codec
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 1.4
+Specification-Title: Commons Codec
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.4
+X-Compile-Source-JDK: 1.4
+X-Compile-Target-JDK: 1.4
+Export-Package: org.apache.commons.codec;version="1.4",org.apache.comm
+ ons.codec.net;version="1.4",org.apache.commons.codec.language;version
+ ="1.4",org.apache.commons.codec.digest;version="1.4",org.apache.commo
+ ns.codec.binary;version="1.4"
+Tool: Bnd-0.0.238
+Bundle-Name: Commons Codec
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.4
+Bnd-LastModified: 1249576895296
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: The codec package contains simple encoder and deco
+ ders for     various formats such as Base64 and Hexadecimal.  In addi
+ tion to these     widely used encoders and decoders, the codec packag
+ e also maintains a     collection of phonetic encoding utilities.
+Import-Package: org.apache.commons.codec;version="1.4",org.apache.comm
+ ons.codec.binary;version="1.4",org.apache.commons.codec.digest;versio
+ n="1.4",org.apache.commons.codec.language;version="1.4",org.apache.co
+ mmons.codec.net;version="1.4"
+Bundle-SymbolicName: org.apache.commons.codec
+Bundle-DocURL: http://commons.apache.org/codec/
+

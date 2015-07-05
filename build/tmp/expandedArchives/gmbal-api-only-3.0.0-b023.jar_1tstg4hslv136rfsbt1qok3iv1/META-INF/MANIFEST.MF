@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Export-Package: org.glassfish.gmbal;uses:="javax.management,javax.mana
+ gement.modelmbean"
+Private-Package: org.glassfish.gmbal.util
+Bundle-Version: 3.0.0.b023
+Tool: Bnd-0.0.356
+Bnd-LastModified: 1257893056343
+Bundle-Name: gmbal-api-only
+Bundle-ManifestVersion: 2
+Created-By: 1.6.0_16 (Sun Microsystems Inc.)
+Import-Package: javax.management,javax.management.modelmbean,org.glass
+ fish.gmbal
+Bundle-SymbolicName: gmbal-api-only
+

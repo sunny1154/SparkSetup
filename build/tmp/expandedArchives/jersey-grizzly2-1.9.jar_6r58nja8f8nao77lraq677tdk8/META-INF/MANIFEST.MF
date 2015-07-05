@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.jersey.api.container.grizzly2;uses:="org.glass
+ fish.grizzly.ssl,com.sun.jersey.api.core,com.sun.jersey.api.container
+ ,org.glassfish.grizzly.http.server,com.sun.jersey.core.spi.component.
+ ioc,javax.servlet,org.glassfish.grizzly.servlet,com.sun.jersey.spi.co
+ ntainer.servlet",com.sun.jersey.server.impl.container.grizzly2;uses:=
+ "com.sun.jersey.spi.container,com.sun.jersey.api.core,javax.ws.rs.cor
+ e,com.sun.jersey.spi.inject,org.glassfish.grizzly.http.server.io,org.
+ glassfish.grizzly.http.server,org.glassfish.grizzly.http.util,com.sun
+ .jersey.core.util,com.sun.jersey.core.header,org.glassfish.grizzly.ht
+ tp,com.sun.jersey.server.impl,com.sun.jersey.api.container"
+Implementation-Title: jersey-grizzly2
+Implementation-Version: 1.9
+Built-By: hudson-pavel
+Tool: Bnd-0.0.357
+Bundle-Name: jersey-grizzly2
+Created-By: Apache Maven Bundle Plugin
+Implementation-Vendor: Oracle Corporation
+Bundle-Vendor: Oracle Corporation
+Implementation-Vendor-Id: com.sun.jersey
+Build-Jdk: 1.6.0_26
+Bundle-Version: 1.9
+Bnd-LastModified: 1314962264242
+Bundle-ManifestVersion: 2
+Bundle-Description: Grizzly 2.0 container for Jersey
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html, ht
+ tp://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-DocURL: http://www.oracle.com/
+Bundle-SymbolicName: com.sun.jersey.grizzly2
+Import-Package: com.sun.jersey.api.container,com.sun.jersey.api.contai
+ ner.grizzly2,com.sun.jersey.api.core,com.sun.jersey.core.header,com.s
+ un.jersey.core.spi.component.ioc,com.sun.jersey.core.util,com.sun.jer
+ sey.server.impl,com.sun.jersey.server.impl.container.grizzly2,com.sun
+ .jersey.spi.container,com.sun.jersey.spi.container.servlet,com.sun.je
+ rsey.spi.inject,javax.servlet;version="3.0",javax.ws.rs.core,org.glas
+ sfish.grizzly.http;resolution:=optional,org.glassfish.grizzly.http.se
+ rver;resolution:=optional,org.glassfish.grizzly.http.server.io;resolu
+ tion:=optional,org.glassfish.grizzly.http.util;resolution:=optional,o
+ rg.glassfish.grizzly.servlet;resolution:=optional;version="2.1",org.g
+ lassfish.grizzly.ssl;resolution:=optional
+Build-Id: 1.9 ${buildNumber}
+

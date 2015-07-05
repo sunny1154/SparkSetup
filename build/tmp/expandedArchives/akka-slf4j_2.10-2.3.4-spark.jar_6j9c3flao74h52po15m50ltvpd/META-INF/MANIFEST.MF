@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1412019951980
+Bundle-ManifestVersion: 2
+Bundle-Name: org.spark.project.akka.slf4j
+Bundle-SymbolicName: org.spark.project.akka.slf4j
+Bundle-Version: 2.3.4.spark
+Created-By: 1.7.0_67 (Oracle Corporation)
+Export-Package: akka.event.slf4j;uses:="akka.actor,akka.event,org.slf4j,
+ scala,scala.reflect,scala.runtime";version="2.3.4.spark"
+Import-Package: akka.actor;version="[2.3,2.4)",akka.event;version="[2.3,
+ 2.4)",akka.util;version="[2.3,2.4)",scala;version="[2.10,2.11)",scala.c
+ ollection;version="[2.10,2.11)",scala.collection.immutable;version="[2.
+ 10,2.11)",scala.reflect;version="[2.10,2.11)",scala.runtime;version="[2
+ .10,2.11)",org.slf4j;version="[1.7,2)"
+Include-Resource: /Users/pwendell/Documents/spark-shaded/akka/akka-slf4j
+ /src/main/resources,/Users/pwendell/Documents/spark-shaded/akka/akka-sl
+ f4j/target/resource_managed/main
+Private-Package: org.spark.project.akka.slf4j.*
+Tool: Bnd-2.1.0.20130426-122213

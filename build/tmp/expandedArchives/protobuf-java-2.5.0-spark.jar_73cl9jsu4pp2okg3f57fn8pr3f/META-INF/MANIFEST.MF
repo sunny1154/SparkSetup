@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1412020664698
+Build-Jdk: 1.6.0_65
+Built-By: pwendell
+Bundle-Description: Protocol Buffers are a way of encoding structured da
+ ta in an efficient yet    extensible format.
+Bundle-DocURL: http://www.google.com/
+Bundle-License: http://www.opensource.org/licenses/bsd-license.php
+Bundle-ManifestVersion: 2
+Bundle-Name: Protocol Buffer Java API
+Bundle-SymbolicName: org.spark-project.protobuf.java
+Bundle-Vendor: Google
+Bundle-Version: 2.5.0.spark
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.spark_project.protobuf;version="2.5.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-2.3.0.201405100607

@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: org.glassfish.grizzly.rcm;uses:="org.glassfish.grizzly
+ .threadpool,org.glassfish.grizzly.memory,org.glassfish.grizzly.filter
+ chain,org.glassfish.grizzly"
+implementation-version: 2.1.2
+Built-By: catsnac
+Tool: Bnd-0.0.357
+package: org.glassfish.grizzly
+Bundle-Name: grizzly-rcm
+Created-By: Apache Maven Bundle Plugin
+url: http://grizzly.java.net/grizzly-rcm
+mode: development
+Bundle-Vendor: Oracle Corpration
+Build-Jdk: 1.6.0_26
+Bundle-Version: 2.1.2
+Bnd-LastModified: 1314033116968
+Bundle-ManifestVersion: 2
+Bundle-Description: Java.net - The Source for Java Technology Collabor
+ ation
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL.html
+Bundle-DocURL: http://www.oracle.com
+Bundle-SymbolicName: org.glassfish.grizzly.rcm
+Import-Package: org.glassfish.grizzly,org.glassfish.grizzly.filterchai
+ n,org.glassfish.grizzly.memory,org.glassfish.grizzly.rcm,org.glassfis
+ h.grizzly.threadpool
+

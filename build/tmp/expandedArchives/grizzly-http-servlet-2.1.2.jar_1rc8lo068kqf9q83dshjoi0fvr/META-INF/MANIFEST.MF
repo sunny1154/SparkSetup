@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Export-Package: org.glassfish.grizzly.servlet.ver25;uses:="javax.xml.b
+ ind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind,java
+ x.xml.namespace";version="2.1.2",org.glassfish.grizzly.servlet;uses:=
+ "org.glassfish.grizzly.http,javax.servlet.http,javax.servlet,org.glas
+ sfish.grizzly.http.server.util,org.glassfish.grizzly.http.util,org.gl
+ assfish.grizzly.http.server,org.glassfish.grizzly.http.server.io,org.
+ glassfish.grizzly,org.glassfish.grizzly.localization";version="2.1.2"
+ ,org.glassfish.grizzly.servlet.ver30;uses:="javax.xml.bind.annotation
+ ,javax.xml.bind.annotation.adapters,javax.xml.bind,javax.xml.namespac
+ e";version="2.1.2"
+implementation-version: 2.1.2
+Built-By: catsnac
+Tool: Bnd-0.0.357
+package: org.glassfish.grizzly
+Bundle-Name: grizzly-http-servlet
+Created-By: Apache Maven Bundle Plugin
+url: http://grizzly.java.net/grizzly-http-servlet
+mode: development
+Bundle-Vendor: Oracle Corpration
+Build-Jdk: 1.6.0_26
+Bundle-Version: 2.1.2
+Bnd-LastModified: 1314033367404
+Bundle-ManifestVersion: 2
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL.html
+Bundle-Description: Java.net - The Source for Java Technology Collabor
+ ation
+Bundle-DocURL: http://www.oracle.com
+Bundle-SymbolicName: org.glassfish.grizzly.http-servlet
+Import-Package: javax.servlet,javax.servlet.http,javax.xml.bind,javax.
+ xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.name
+ space,org.glassfish.grizzly,org.glassfish.grizzly.http,org.glassfish.
+ grizzly.http.server,org.glassfish.grizzly.http.server.io,org.glassfis
+ h.grizzly.http.server.util,org.glassfish.grizzly.http.util,org.glassf
+ ish.grizzly.localization,org.glassfish.grizzly.servlet;version="2.1",
+ org.glassfish.grizzly.servlet.ver25;version="2.1",org.glassfish.grizz
+ ly.servlet.ver30;version="2.1"
+

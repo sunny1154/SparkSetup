@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.jersey.api.client.filter;uses:="com.sun.jersey
+ .core.util,com.sun.jersey.api.client,javax.ws.rs.core",com.sun.jersey
+ .client.urlconnection;uses:="com.sun.jersey.core.header,com.sun.jerse
+ y.spi,javax.net.ssl,com.sun.jersey.api.client,javax.ws.rs.core",com.s
+ un.jersey.client.osgi;uses:="com.sun.ws.rs.ext,org.osgi.framework,jav
+ ax.ws.rs.ext",com.sun.jersey.client.impl.async;uses:="com.sun.jersey.
+ api.client.async,com.sun.jersey.api.client",com.sun.ws.rs.ext;uses:="
+ com.sun.jersey.core.spi.factory,javax.ws.rs.core",com.sun.jersey.api.
+ client.config;uses:="com.sun.jersey.core.util",com.sun.jersey.api.cli
+ ent.async;uses:="com.sun.jersey.api.client",com.sun.jersey.client.pro
+ xy;uses:="com.sun.jersey.api.client.async,com.sun.jersey.api.client",
+ com.sun.jersey.api.client;uses:="com.sun.jersey.client.urlconnection,
+ com.sun.jersey.core.util,com.sun.jersey.core.provider,com.sun.jersey.
+ api.client.filter,com.sun.jersey.core.header,com.sun.jersey.api.clien
+ t.async,com.sun.jersey.spi,com.sun.jersey.spi.inject,com.sun.jersey.c
+ lient.impl,javax.ws.rs.core,com.sun.jersey.core.spi.component,com.sun
+ .jersey.client.impl.async,com.sun.jersey.api.client.config,com.sun.je
+ rsey.core.spi.factory,com.sun.jersey.client.proxy,com.sun.jersey.core
+ .reflection,com.sun.jersey.core.spi.component.ioc,javax.ws.rs.ext,com
+ .sun.jersey.spi.service",com.sun.jersey.client.impl;uses:="com.sun.je
+ rsey.core.header,com.sun.jersey.api.client,javax.ws.rs.core"
+Private-Package: com.sun.jersey.client.osgi
+Implementation-Title: jersey-client
+Implementation-Version: 1.9
+Built-By: hudson-pavel
+Tool: Bnd-0.0.255
+Bundle-Name: jersey-client
+Created-By: Apache Maven Bundle Plugin
+Implementation-Vendor: Oracle Corporation
+Bundle-Vendor: Oracle Corporation
+Implementation-Vendor-Id: com.sun.jersey
+Bundle-Version: 1.9
+Build-Jdk: 1.6.0_26
+Bnd-LastModified: 1314962281634
+Bundle-Activator: com.sun.jersey.client.osgi.Activator
+Bundle-ManifestVersion: 2
+Bundle-Description: Jersey is the open source (under dual CDDL+GPL lic
+ ense) JAX-RS (JSR 311)        production quality Reference Implementa
+ tion for building        RESTful Web services.
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html, ht
+ tp://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-DocURL: http://www.oracle.com/
+Bundle-SymbolicName: com.sun.jersey.jersey-client
+Import-Package: com.sun.jersey.api.client,com.sun.jersey.api.client.as
+ ync,com.sun.jersey.api.client.config,com.sun.jersey.api.client.filter
+ ,com.sun.jersey.client.impl,com.sun.jersey.client.impl.async,com.sun.
+ jersey.client.osgi,com.sun.jersey.client.proxy,com.sun.jersey.client.
+ urlconnection,com.sun.jersey.core.header,com.sun.jersey.core.provider
+ ,com.sun.jersey.core.reflection,com.sun.jersey.core.spi.component,com
+ .sun.jersey.core.spi.component.ioc,com.sun.jersey.core.spi.factory,co
+ m.sun.jersey.core.util,com.sun.jersey.spi,com.sun.jersey.spi.inject,c
+ om.sun.jersey.spi.service,com.sun.ws.rs.ext,javax.net.ssl,javax.ws.rs
+ .core,javax.ws.rs.ext,org.osgi.framework
+Build-Id: 1.9 ${buildNumber}
+

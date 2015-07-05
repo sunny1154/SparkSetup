@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: org.glassfish.external.probe.provider.annotations,org.
+ glassfish.external.probe.provider,org.glassfish.external.statistics,o
+ rg.glassfish.external.statistics.impl;uses:="org.glassfish.external.s
+ tatistics",org.glassfish.external.statistics.annotations,org.glassfis
+ h.external.amx;uses:="javax.management,org.glassfish.external.arc,jav
+ ax.management.remote",org.glassfish.external.arc
+Bundle-Version: 3.0.0.b012
+Tool: Bnd-0.0.356
+Bnd-LastModified: 1257817286346
+Bundle-Name: management-api
+Bundle-ManifestVersion: 2
+Created-By: 1.6.0_16 (Sun Microsystems Inc.)
+Import-Package: javax.management,javax.management.remote,org.glassfish
+ .external.amx,org.glassfish.external.arc,org.glassfish.external.probe
+ .provider,org.glassfish.external.probe.provider.annotations,org.glass
+ fish.external.statistics,org.glassfish.external.statistics.annotation
+ s,org.glassfish.external.statistics.impl
+Bundle-SymbolicName: management-api
+

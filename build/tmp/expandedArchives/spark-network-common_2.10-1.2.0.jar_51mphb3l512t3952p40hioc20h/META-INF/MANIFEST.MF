@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ubuntu
+Build-Jdk: 1.6.0_30
+Specification-Title: Spark Project Networking
+Specification-Version: 1.2.0
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Spark Project Networking
+Implementation-Version: 1.2.0
+Implementation-Vendor-Id: org.apache.spark
+Implementation-Vendor: The Apache Software Foundation
+

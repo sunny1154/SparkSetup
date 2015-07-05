@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hudson-pavel
+Build-Jdk: 1.6.0_26
+Implementation-Title: jersey-guice
+Implementation-Version: 1.9
+Implementation-Vendor-Id: com.sun.jersey.contribs
+Implementation-Vendor: Oracle Corporation
+Build-Id: 1.9 09/02/2011 11:21 AM
+

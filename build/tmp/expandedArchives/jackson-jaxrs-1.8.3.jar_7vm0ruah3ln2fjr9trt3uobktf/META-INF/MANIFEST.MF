@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.codehaus.jackson.jaxrs;uses:="javax.ws.rs,org.code
+ haus.jackson.map.type,javax.ws.rs.ext,org.codehaus.jackson.type,org.c
+ odehaus.jackson.map,org.codehaus.jackson.util,org.codehaus.jackson.ma
+ p.introspect,org.codehaus.jackson,org.codehaus.jackson.map.util,javax
+ .ws.rs.core";version="1.8.3"
+Implementation-Title: JAX-RS provider for JSON content type, using Jac
+ kson data binding
+Implementation-Version: 1.8.3
+Built-By: tsaloranta
+Tool: Bnd-unknown version
+Bundle-Name: JAX-RS provider for JSON content type, using Jackson data
+  binding
+Created-By: 1.6.0_26 (Apple Inc.)
+Bundle-RequiredExecutionEnvironment: J2SE-1.5, JavaSE-1.6
+DynamicImport-Package: org.codehaus.jackson.xc
+Bundle-Vendor: http://fasterxml.com
+Implementation-Vendor: http://fasterxml.com
+Bundle-Version: 1.8.3
+Bnd-LastModified: 1310188879671
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,org.codeh
+ aus.jackson;version="1.8.3",org.codehaus.jackson.map;version="1.8.3",
+ org.codehaus.jackson.map.introspect;version="1.8.3",org.codehaus.jack
+ son.map.type;version="1.8.3",org.codehaus.jackson.map.util;version="1
+ .8.3",org.codehaus.jackson.type;version="1.8.3",org.codehaus.jackson.
+ util;version="1.8.3"
+Bundle-SymbolicName: jackson-jaxrs
+

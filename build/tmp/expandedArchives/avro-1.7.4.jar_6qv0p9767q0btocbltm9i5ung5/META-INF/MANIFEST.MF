@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: cutting
+Build-Jdk: 1.7.0_09
+Specification-Title: Apache Avro
+Specification-Version: 1.7.4
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Apache Avro
+Implementation-Version: 1.7.4
+Implementation-Vendor-Id: org.apache.avro
+Implementation-Vendor: The Apache Software Foundation
+

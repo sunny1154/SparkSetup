@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Export-Package: org.codehaus.jackson.xc;uses:="org.codehaus.jackson.ma
+ p.annotate,org.codehaus.jackson.annotate,org.codehaus.jackson.node,or
+ g.codehaus.jackson.map,org.codehaus.jackson.map.introspect,org.codeha
+ us.jackson.map.jsontype,org.codehaus.jackson.map.util,org.codehaus.ja
+ ckson.map.jsontype.impl,org.codehaus.jackson.map.ser,org.codehaus.jac
+ kson.schema,org.codehaus.jackson.map.type,javax.xml.bind.annotation.a
+ dapters,org.codehaus.jackson.type,javax.activation,org.codehaus.jacks
+ on.map.deser,org.codehaus.jackson.util,javax.xml.bind.annotation,org.
+ codehaus.jackson,javax.xml.bind";version="1.8.3"
+Implementation-Title: XML Compatibility extensions for Jackson data bi
+ nding
+Implementation-Version: 1.8.3
+Built-By: tsaloranta
+Tool: Bnd-unknown version
+Bundle-Name: XML Compatibility extensions for Jackson data binding
+Created-By: 1.6.0_26 (Apple Inc.)
+Bundle-RequiredExecutionEnvironment: J2SE-1.5, JavaSE-1.6
+DynamicImport-Package: org.w3c.dom ,javax.xml.namespace, javax.xml.par
+ sers, javax.xml.transform 
+Bundle-Vendor: http://fasterxml.com
+Implementation-Vendor: http://fasterxml.com
+Bundle-Version: 1.8.3
+Bnd-LastModified: 1310188879731
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: javax.activation,javax.xml.bind,javax.xml.bind.annotat
+ ion,javax.xml.bind.annotation.adapters,org.codehaus.jackson;version="
+ 1.8.3",org.codehaus.jackson.annotate;version="1.8.3",org.codehaus.jac
+ kson.map;version="1.8.3",org.codehaus.jackson.map.annotate;version="1
+ .8.3",org.codehaus.jackson.map.deser;version="1.8.3",org.codehaus.jac
+ kson.map.introspect;version="1.8.3",org.codehaus.jackson.map.jsontype
+ ;version="1.8.3",org.codehaus.jackson.map.jsontype.impl;version="1.8.
+ 3",org.codehaus.jackson.map.ser;version="1.8.3",org.codehaus.jackson.
+ map.type;version="1.8.3",org.codehaus.jackson.map.util;version="1.8.3
+ ",org.codehaus.jackson.node;version="1.8.3",org.codehaus.jackson.sche
+ ma;version="1.8.3",org.codehaus.jackson.type;version="1.8.3",org.code
+ haus.jackson.util;version="1.8.3"
+Bundle-SymbolicName: jackson-xc
+
